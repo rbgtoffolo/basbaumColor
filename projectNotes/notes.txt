@@ -1,0 +1,16 @@
+vermelho    405     
+            480
+laranja     480
+            510
+amarelo     510
+            530
+verde       530
+            600
+ciano       600
+            620
+azul        620
+            680
+violeta     680
+            790
+
+
