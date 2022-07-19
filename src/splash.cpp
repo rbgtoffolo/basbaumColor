@@ -25,6 +25,13 @@ splash::splash(float size, float points, int hue, int sat, int bright)
         m_yoff = 0;
         m_color.setHsb(m_hue, m_sat, m_bright); 
         m_increment = TWO_PI/m_points;
+
+        std::cout << "creating blob (size, points, hue, sat, bright):  " 
+        << m_size << ", "
+        << m_points << ", "
+        << m_hue << ", "
+        << m_sat << ", "
+        << m_bright << ", " << std::endl;
     }
 
 void splash::draw(){

@@ -2,6 +2,10 @@
 
 #include "ofMain.h"
 #include "splash.h"
+#include "ofxOsc.h"
+#include<vector>
+
+#define BORDER 100
 
 class ofApp : public ofBaseApp{
 
@@ -22,5 +26,12 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
-		splash mySplash01;
+		ofxOscReceiver receiver;
+		vector<splash> blobVector;
+		vector<int> hue;
+		vector<int> saturation;
+		vector<int> bright;
+		vector<int> position;
+		bool arrayComplete = false;
+		int numItems;
 };

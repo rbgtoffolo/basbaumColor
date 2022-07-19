@@ -11,7 +11,7 @@ make Debug
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Mon Jul 18 18:12:50 2022
+# Make data base, printed on Tue Jul 19 12:41:05 2022
 
 # Variables
 
@@ -60,7 +60,7 @@ VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:59447
+JOURNAL_STREAM = 8:58461
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 18)
 RUN_TARGET = RunDebug
 # environment
@@ -98,7 +98,7 @@ _ = /usr/bin/code
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.linux.common.mk', line 119)
 PLATFORM_REQUIRED_ADDONS = 
 # environment
-MANAGERPID = 3816
+MANAGERPID = 3807
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -114,7 +114,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 PG_OF_PATH = /home/rbgtoffolo/OF
 # environment
-SESSION_MANAGER = local/ncc1701:@/tmp/.ICE-unix/5483,unix/ncc1701:/tmp/.ICE-unix/5483
+SESSION_MANAGER = local/ncc1701:@/tmp/.ICE-unix/5435,unix/ncc1701:/tmp/.ICE-unix/5435
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 180)
 OF_LIBS_OF_COMPILED_PATH = $(OF_LIBS_OPENFRAMEWORKS_PATH)Compiled
 # environment
@@ -138,7 +138,7 @@ XDG_MENU_PREFIX = gnome-
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = fcf703d6fc9c42bc9dfbba383b8e7a7f
+INVOCATION_ID = 669f9cfda83146b196d60d97ba243f54
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.linux.common.mk', line 38)
@@ -146,14 +146,13 @@ HAS_SYSTEM_MPG123 = $(shell pkg-config libmpg123 --exists; echo $$?)
 # environment
 LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.linux.common.mk', line 339)
- 
 PLATFORM_STATIC_LIBRARIES = 
 # environment
 XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 7949
+GIO_LAUNCHED_DESKTOP_FILE_PID = 10035
 # automatic
 %F = $(notdir $%)
 # environment
@@ -169,7 +168,7 @@ OF_CORE_HEADER_PATHS = $(OF_LIBS_OPENFRAMEWORKS_PATH) $(OF_CORE_SOURCE_PATHS)
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 5428
+SSH_AGENT_PID = 5354
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -188,6 +187,7 @@ VSCODE_CLI = 1
 VSCODE_CODE_CACHE_PATH = /home/rbgtoffolo/.config/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
 # environment
 LOGNAME = rbgtoffolo
+ 
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 235)
@@ -258,7 +258,6 @@ OLDPWD = /home/rbgtoffolo/Dev/OF/apps/myApps
 TERMINATOR_DBUS_PATH = /net/tenshu/Terminator2
 # default
 .VARIABLES := 
- 
 # automatic
 *F = $(notdir $*)
 # environment
@@ -287,8 +286,6 @@ ALL_OF_CORE_SOURCE_PATHS = $(shell $(FIND) $(OF_LIBS_OPENFRAMEWORKS_PATH) -maxde
 GDK_BACKEND = x11
 # automatic
 +F = $(notdir $+)
-# environment
-NO_AT_BRIDGE = 1
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 342)
 OF_CORE_SOURCE_FILES = $(filter-out $(CORE_EXCLUSIONS),$(shell $(FIND) $(OF_CORE_SOURCE_PATHS) -name "*.cpp" -or -name "*.mm" -or -name "*.m" | grep -v "/\.[^\.]"))
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 8)
@@ -325,6 +322,7 @@ OF_LIBS_OPENFRAMEWORKS_PATH = $(OF_LIBS_PATH)/openFrameworks
 ^F = $(notdir $^)
 # default
 SUFFIXES := 
+ 
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/linux64/config.linux64.default.mk', line 30)
 PLATFORM_LDFLAGS = -Wl,-rpath=./libs:./bin/libs -Wl,--as-needed -Wl,--gc-sections -fuse-ld=gold
 # environment
@@ -345,17 +343,16 @@ LANG = C
 TERM = xterm-256color
 # environment
 TERMINATOR_DBUS_NAME = net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873
- 
 # environment
-VSCODE_PID = 10083
+VSCODE_PID = 11711
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 86)
 PLATFORM_LIB_SUBPATH = linux64
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 331)
 OF_CORE_BASE_CFLAGS = $(PLATFORM_CFLAGS)
 # environment
-TERMINATOR_UUID = urn:uuid:1ee19bbb-cf2f-4013-afdc-614559aabd32
+TERMINATOR_UUID = urn:uuid:3128065e-5614-44b5-8eaa-d59a5448ce8b
 # variable set hash-table stats:
-# Load=168/1024=16%, Rehash=0, Collisions=84/720=12%
+# Load=167/1024=16%, Rehash=0, Collisions=84/719=12%
 
 # Pattern-specific Variable Values
 
@@ -363,13 +360,13 @@ TERMINATOR_UUID = urn:uuid:1ee19bbb-cf2f-4013-afdc-614559aabd32
 
 # Directories
 
-# . (device 2049, inode 36178983): 13 files, no impossibilities.
+# . (device 2049, inode 36178983): 15 files, no impossibilities.
 # / (device 66306, inode 2): No files, no impossibilities so far.
 # /etc (device 66306, inode 1572865): 278 files, no impossibilities.
 # /home/rbgtoffolo/Dev/OF/libs/openFrameworks (device 2049, inode 35786448): No files, no impossibilities so far.
 # /home/rbgtoffolo/Dev/OF/addons (device 2049, inode 35128838): No files, no impossibilities so far.
 
-# 291 files, no impossibilities in 5 directories.
+# 293 files, no impossibilities in 5 directories.
 
 # Implicit Rules
 
@@ -423,7 +420,6 @@ TERMINATOR_UUID = urn:uuid:1ee19bbb-cf2f-4013-afdc-614559aabd32
 
 /home/rbgtoffolo/Dev/OF/apps/myApps/basbaumColor/addons/%.o: %.cpp .compiler_flags
 
- 
 /home/rbgtoffolo/Dev/OF/apps/myApps/basbaumColor/addons/%.o: %.cxx .compiler_flags
 
 /home/rbgtoffolo/Dev/OF/apps/myApps/basbaumColor/addons/%.o: %.m .compiler_flags
@@ -435,6 +431,7 @@ TERMINATOR_UUID = urn:uuid:1ee19bbb-cf2f-4013-afdc-614559aabd32
 /home/rbgtoffolo/Dev/OF/apps/myApps/basbaumColor/addons/%.o: %.c .compiler_flags
 
 /home/rbgtoffolo/Dev/OF/apps/myApps/basbaumColor/addons/%.o: %.S .compiler_flags
+ 
 
 /home/rbgtoffolo/Dev/OF/addons/%.o: /home/rbgtoffolo/Dev/OF/addons/%.cpp /home/rbgtoffolo/Dev/OF/addons/.compiler_flags
 #  recipe to execute (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 358):
@@ -504,7 +501,6 @@ CleanDebugABI:
 	rm -rf $(OF_PROJECT_OBJ_OUTPUT_PATH)
 	rm -f $(TARGET)
 	rm -rf $(BIN_NAME)
- 
 
 all:
 #  Phony target (prerequisite of .PHONY).
@@ -532,6 +528,7 @@ AndroidDebug:
 	$(MAKE) Debug PLATFORM_OS=Android
 
 .PHONY: all Debug Release after clean CleanDebug CleanRelease help force
+ 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -594,7 +591,6 @@ afterplatform: after
 
 # 'override' directive
 Debug: .SHELLSTATUS := 0
- 
 Debug:
 #  Phony target (prerequisite of .PHONY).
 #  Command line target.
@@ -631,6 +627,7 @@ Debug:
 
 .compiler_flags: force
 #  Implicit rule search has not been done.
+ 
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 204):
@@ -673,7 +670,6 @@ help:
 	@echo include
 	@echo
 
- 
 ReleaseNoOF:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -722,6 +718,7 @@ CleanRelease:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+ 
 
 RunDebug:
 #  Implicit rule search has not been done.
@@ -771,7 +768,6 @@ clean:
 # Not a target:
 /home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk:
 #  Implicit rule search has been done.
- 
 #  Last modified 2021-03-24 16:23:00
 #  File has been updated.
 #  Successfully updated.
@@ -815,6 +811,7 @@ bin/basbaumColor_debug: .compiler_flags
 # Not a target:
 /home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk:
 #  Implicit rule search has been done.
+ 
 #  Last modified 2021-03-24 16:23:00
 #  File has been updated.
 #  Successfully updated.
@@ -827,13 +824,13 @@ bin/basbaumColor_debug: .compiler_flags
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 355 / storage = 4122 B / avg = 11 B
-# current buf: size = 8162 B / used = 4122 B / count = 355 / avg = 11 B
+# strcache buffers: 1 (0) / strings = 357 / storage = 4138 B / avg = 11 B
+# current buf: size = 8162 B / used = 4138 B / count = 357 / avg = 11 B
 
-# strcache performance: lookups = 467 / hit rate = 23%
+# strcache performance: lookups = 469 / hit rate = 23%
 # hash-table stats:
-# Load=355/8192=4%, Rehash=0, Collisions=29/467=6%
-# Finished Make data base on Mon Jul 18 18:12:50 2022
+# Load=357/8192=4%, Rehash=0, Collisions=29/469=6%
+# Finished Make data base on Tue Jul 19 12:41:05 2022
 
 # make[1]: Leaving directory '/home/rbgtoffolo/Dev/OF/apps/myApps/basbaumColor'
  
@@ -845,7 +842,7 @@ bin/basbaumColor_debug: .compiler_flags
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Mon Jul 18 18:12:50 2022
+# Make data base, printed on Tue Jul 19 12:41:05 2022
 
 # Variables
 
@@ -892,7 +889,7 @@ VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:59447
+JOURNAL_STREAM = 8:58461
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.linux.common.mk', line 211)
@@ -931,7 +928,7 @@ _ = /usr/bin/code
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.linux.common.mk', line 119)
 PLATFORM_REQUIRED_ADDONS = 
 # environment
-MANAGERPID = 3816
+MANAGERPID = 3807
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -947,7 +944,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 PG_OF_PATH = /home/rbgtoffolo/OF
 # environment
-SESSION_MANAGER = local/ncc1701:@/tmp/.ICE-unix/5483,unix/ncc1701:/tmp/.ICE-unix/5483
+SESSION_MANAGER = local/ncc1701:@/tmp/.ICE-unix/5435,unix/ncc1701:/tmp/.ICE-unix/5435
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 180)
 OF_LIBS_OF_COMPILED_PATH = $(OF_LIBS_OPENFRAMEWORKS_PATH)Compiled
 # environment
@@ -967,7 +964,7 @@ XDG_MENU_PREFIX = gnome-
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = fcf703d6fc9c42bc9dfbba383b8e7a7f
+INVOCATION_ID = 669f9cfda83146b196d60d97ba243f54
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.linux.common.mk', line 38)
@@ -981,11 +978,12 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 7949
+GIO_LAUNCHED_DESKTOP_FILE_PID = 10035
 # automatic
 %F = $(notdir $%)
 # environment
 DISPLAY = :0
+ 
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.linux.common.mk', line 173)
 PLATFORM_CFLAGS = -Wall -Werror=return-type
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 29)
@@ -997,12 +995,11 @@ OF_CORE_HEADER_PATHS = $(OF_LIBS_OPENFRAMEWORKS_PATH) $(OF_CORE_SOURCE_PATHS)
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 5428
+SSH_AGENT_PID = 5354
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
 GTK_MODULES = gail:atk-bridge
- 
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -1095,6 +1092,7 @@ VSCODE_IPC_HOOK = /run/user/1000/vscode-a2fcc847-1.69.1-main.sock
 PLATFORM_DEFINES =  OF_USING_GTK OF_USING_MPG123
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.linux.common.mk', line 429)
 PLATFORM_LIBRARY_SEARCH_PATHS = 
+ 
 # makefile
 MAKEFLAGS = pqrR
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.linux.common.mk', line 270)
@@ -1113,8 +1111,6 @@ ALL_OF_CORE_SOURCE_PATHS = $(shell $(FIND) $(OF_LIBS_OPENFRAMEWORKS_PATH) -maxde
 GDK_BACKEND = x11
 # automatic
 +F = $(notdir $+)
-# environment
-NO_AT_BRIDGE = 1
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 342)
 OF_CORE_SOURCE_FILES = $(filter-out $(CORE_EXCLUSIONS),$(shell $(FIND) $(OF_CORE_SOURCE_PATHS) -name "*.cpp" -or -name "*.mm" -or -name "*.m" | grep -v "/\.[^\.]"))
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 8)
@@ -1170,15 +1166,15 @@ TERM = xterm-256color
 # environment
 TERMINATOR_DBUS_NAME = net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873
 # environment
-VSCODE_PID = 10083
+VSCODE_PID = 11711
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 86)
 PLATFORM_LIB_SUBPATH = linux64
 # makefile (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 331)
 OF_CORE_BASE_CFLAGS = $(PLATFORM_CFLAGS)
 # environment
-TERMINATOR_UUID = urn:uuid:1ee19bbb-cf2f-4013-afdc-614559aabd32
+TERMINATOR_UUID = urn:uuid:3128065e-5614-44b5-8eaa-d59a5448ce8b
 # variable set hash-table stats:
-# Load=163/1024=16%, Rehash=0, Collisions=84/676=12%
+# Load=162/1024=16%, Rehash=0, Collisions=84/675=12%
 
 # Pattern-specific Variable Values
 
@@ -1186,14 +1182,14 @@ TERMINATOR_UUID = urn:uuid:1ee19bbb-cf2f-4013-afdc-614559aabd32
 
 # Directories
 
-# . (device 2049, inode 36178983): 13 files, no impossibilities.
+# . (device 2049, inode 36178983): 15 files, no impossibilities.
 # / (device 66306, inode 2): No files, no impossibilities so far.
  
 # /etc (device 66306, inode 1572865): 278 files, no impossibilities.
 # /home/rbgtoffolo/Dev/OF/libs/openFrameworks (device 2049, inode 35786448): No files, no impossibilities so far.
 # /home/rbgtoffolo/Dev/OF/addons (device 2049, inode 35128838): No files, no impossibilities so far.
 
-# 291 files, no impossibilities in 5 directories.
+# 293 files, no impossibilities in 5 directories.
 
 # Implicit Rules
 
@@ -1296,6 +1292,7 @@ TERMINATOR_UUID = urn:uuid:1ee19bbb-cf2f-4013-afdc-614559aabd32
 	$(CC) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(ADDON_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
 
 /home/rbgtoffolo/Dev/OF/addons/addons/%.o: /home/rbgtoffolo/Dev/OF/addons/%.S /home/rbgtoffolo/Dev/OF/addons/.compiler_flags
+ 
 #  recipe to execute (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 388):
 	@echo "Compiling" $<
 	@mkdir -p $(@D)
@@ -1325,7 +1322,6 @@ all:
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: ''
 #  File does not exist.
- 
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # automatic
@@ -1390,6 +1386,7 @@ DebugNoOF:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from '/home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 158):
+ 
 	@echo Compiling $(APPNAME) for Debug
 	@$(MAKE) DebugABI
 
@@ -1458,7 +1455,6 @@ ABI:
 	@if [ "$(strip $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(PROJECT_INCLUDE_CFLAGS) $(OPTIMIZATION_LDFLAGS) $(LDFLAGS))" != "$(strip $$(cat $@ 2>/dev/null))" ]; then echo $(strip $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(PROJECT_INCLUDE_CFLAGS) $(OPTIMIZATION_LDFLAGS) $(LDFLAGS)) > $@; fi
 
 help:
- 
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -1485,6 +1481,7 @@ help:
 	@echo it will look for files in any folder inside the application
 	@echo folder except that in the EXCLUDE_FROM_SOURCE variable.
 	@echo "it doesn't autodetect include paths yet"
+ 
 	@echo "add the include paths editing the var USER_CFLAGS"
 	@echo at the beginning of the makefile using the gcc syntax:
 	@echo -Ipath
@@ -1588,6 +1585,7 @@ clean:
 # Not a target:
 /home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk:
 #  Implicit rule search has been done.
+ 
 #  Last modified 2021-03-24 16:23:00
 #  File has been updated.
 #  Successfully updated.
@@ -1622,7 +1620,6 @@ after:
 # Not a target:
 /home/rbgtoffolo/Dev/OF/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk:
 #  Implicit rule search has been done.
- 
 #  Last modified 2021-03-24 16:23:00
 #  File has been updated.
 #  Successfully updated.
@@ -1635,12 +1632,12 @@ after:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 354 / storage = 4089 B / avg = 11 B
-# current buf: size = 8162 B / used = 4089 B / count = 354 / avg = 11 B
+# strcache buffers: 1 (0) / strings = 356 / storage = 4105 B / avg = 11 B
+# current buf: size = 8162 B / used = 4105 B / count = 356 / avg = 11 B
 
-# strcache performance: lookups = 459 / hit rate = 22%
+# strcache performance: lookups = 461 / hit rate = 22%
 # hash-table stats:
-# Load=354/8192=4%, Rehash=0, Collisions=27/459=6%
-# Finished Make data base on Mon Jul 18 18:12:50 2022
+# Load=356/8192=4%, Rehash=0, Collisions=27/461=6%
+# Finished Make data base on Tue Jul 19 12:41:05 2022
 
  
