@@ -10,12 +10,16 @@ public:
     splash();
     splash(float size, float points, int hue, int sat, int bright);
     ~splash(); 
-    int xpos;
-    int ypos;
+    float xpos;
+    float ypos;
     void setPoints(int points){m_points = points;};
     void setSize(int size){m_size = size;};
+    void setHue(float hue){m_hue = hue;};
+    void setSaturation(float sat){m_sat = sat;};
+    void setBright(float bri){m_bright = bri;};
     
     void draw();
+
 
 private:
     float m_size;

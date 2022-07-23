@@ -4,6 +4,7 @@
 void ofApp::setup()
 {
     ofBackground(0);
+    receiver.setup(12345);
 }
 
 //--------------------------------------------------------------
@@ -13,6 +14,8 @@ void ofApp::update()
     {
         ofxOscMessage m;
         receiver.getNextMessage(m);
+
+     
 
         if (m.getAddress() == "/setup/size")
         {
@@ -39,9 +42,9 @@ void ofApp::update()
         if (m.getAddress() == "/colors")
         {
             int index = m.getArgAsInt(0);
-            int tempHue = m.getArgAsInt(1);
-            int tempSat = m.getArgAsInt(2);
-            int tempBri = m.getArgAsInt(3);
+            float tempHue = m.getArgAsFloat(1);
+            float tempSat = m.getArgAsFloat(2);
+            float tempBri = m.getArgAsFloat(3);
 
             hue[index] = tempHue;
             saturation[index] = tempSat;
@@ -52,27 +55,36 @@ void ofApp::update()
                 arrayComplete = true;
                 for (int i = 0; i < numItems; i++)
                 {
-                    blobVector.push_back(splash(500, 100, hue[i], saturation[i], bright[i]));
+                    int size = ofRandom(50,300);
+                    blobVector.push_back(splash(size, 100, hue[i], saturation[i], bright[i]));
+                    blobVector[i].ypos = ofMap(ofRandom(0,1), 0, 1, BORDER, ofGetHeight()-BORDER);
                 }
             }
+        }
 
-            // if (arrayComplete){
-            //     for (int i = 0; i < numNotes; i++)
-            //     {
-            //         std::cout << i << ": " << hue[i] << ", ";
-            //     }
-            //     std::cout << std::endl;
-            //     arrayComplete = false;
-            // }
+        if (m.getAddress() == "/updateNote"){            
+            int index = m.getArgAsInt(0);
+            float tempHue = m.getArgAsFloat(1);
+            float tempSat = m.getArgAsFloat(2);
+            float tempBri = m.getArgAsFloat(3);
+
+            hue[index] = tempHue;
+            saturation[index] = tempSat;
+            bright[index] = tempBri;
+
+            blobVector[index].setHue(tempHue);
+            blobVector[index].setSaturation(tempSat);
+            blobVector[index].setBright(tempBri);
+
         }
 
         if ( (m.getAddress() == "/positions") && arrayComplete)
         {
-            int index = m.getArgAsInt(0);
-            int position = m.getArgAsInt(1);
+            int index = m.getArgAsFloat(0);
+            float position = m.getArgAsFloat(1);
 
-            blobVector[index].xpos = ofMap(position, -1, 1, BORDER, ofGetWidth()-BORDER);
-            blobVector[index].ypos = ofMap(position, -1, 1, BORDER, ofGetHeight()-BORDER);
+            blobVector[index].xpos = ofMap(position, -1.0f, 1.0f, BORDER, ofGetWidth()-BORDER);
+          //  blobVector[index].ypos = ofMap(ofRandom(-1.0,position), -1.0f, 1.0f, BORDER, ofGetHeight()-BORDER);
         }
     }
 }

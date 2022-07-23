@@ -5,7 +5,7 @@
 #include "ofxOsc.h"
 #include<vector>
 
-#define BORDER 100
+#define BORDER 30
 
 class ofApp : public ofBaseApp{
 
@@ -28,9 +28,9 @@ class ofApp : public ofBaseApp{
 		
 		ofxOscReceiver receiver;
 		vector<splash> blobVector;
-		vector<int> hue;
-		vector<int> saturation;
-		vector<int> bright;
+		vector<float> hue;
+		vector<float> saturation;
+		vector<float> bright;
 		vector<int> position;
 		bool arrayComplete = false;
 		int numItems;

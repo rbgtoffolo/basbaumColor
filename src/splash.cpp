@@ -26,13 +26,14 @@ splash::splash(float size, float points, int hue, int sat, int bright)
         m_color.setHsb(m_hue, m_sat, m_bright); 
         m_increment = TWO_PI/m_points;
 
-        std::cout << "creating blob (size, points, hue, sat, bright):  " 
-        << m_size << ", "
-        << m_points << ", "
-        << m_hue << ", "
-        << m_sat << ", "
-        << m_bright << ", " << std::endl;
+        // std::cout << "creating blob (size, points, hue, sat, bright):  " 
+        // << m_size << ", "
+        // << m_points << ", "
+        // << m_hue << ", "
+        // << m_sat << ", "
+        // << m_bright << ", " << std::endl;
     }
+
 
 void splash::draw(){
 
@@ -40,6 +41,7 @@ void splash::draw(){
     ofPushMatrix();
     ofTranslate(xpos, ypos);
     ofFill();
+    m_color.setHsb(m_hue, m_sat, m_bright); 
     ofSetColor(m_color);
 
     ofBeginShape();
@@ -50,7 +52,7 @@ void splash::draw(){
     float x = r * std::cos(a);
     float y = r * std::sin(a);
     ofVertex(x, y);
-    m_xoff += 0.1;
+    m_xoff += 0.3;
 
   }
   ofEndShape();
