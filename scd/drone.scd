@@ -1,5 +1,7 @@
 (
 s.quit;
+s.options.numOutputBusChannels = 8;
+~out = 0;
 s.waitForBoot({
 
 	SynthDef.new(\drone,
@@ -26,7 +28,7 @@ s.waitForBoot({
 			});
 
 			sig = Splay.ar(temp, spread, amp, pan);
-			Out.ar(0, sig);
+			Out.ar(~out, sig);
 	}).add;
 
 	s.sync;
@@ -34,16 +36,16 @@ s.waitForBoot({
 
 
 	~address = NetAddr.new("127.0.0.1", 12345);
-	~hue = [ 0, 21.25, 42.5, 63.75, 85, 106.25, 127.5, 148.75, 170, 191.25, 212.5, 233.75];
+	~hue = [ 0, 21.25, 42.5, 63.75, 85, 106.25, 127.5, 148.75, 170, 191.25, 212.5, 233.75]+20;
 	~saturation = 100;
-	~bright = [255*0.3, 255*0.4, 255*0.5, 255*0.6, 255*0.7, 255*0.8, 255*0.9]; // for each octave
+	~bright = [255*0.5, 255*0.4, 255*0.5, 255*0.6, 255*0.7, 255*0.8, 255*0.9]; // for each octave
 
 	~midiLow = 27;
 	~midiHigh = 110;
 	~lagTime = 3;
 	~harmonics = 6;
 	~minSize = 5;
-	~maxSize = 30;
+	~maxSize = 20;
 
 	~createChord = {
 		~size = rrand(~minSize,~maxSize);

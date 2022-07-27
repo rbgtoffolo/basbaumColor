@@ -55,7 +55,7 @@ void ofApp::update()
                 arrayComplete = true;
                 for (int i = 0; i < numItems; i++)
                 {
-                    int size = ofRandom(50,300);
+                    int size = ofRandom(300,900);
                     blobVector.push_back(splash(size, 100, hue[i], saturation[i], bright[i]));
                     blobVector[i].ypos = ofMap(ofRandom(0,1), 0, 1, BORDER, ofGetHeight()-BORDER);
                 }

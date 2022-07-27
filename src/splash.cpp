@@ -41,7 +41,7 @@ void splash::draw(){
     ofPushMatrix();
     ofTranslate(xpos, ypos);
     ofFill();
-    m_color.setHsb(m_hue, m_sat, m_bright); 
+    m_color.setHsb(m_hue, m_sat, m_bright, 200); 
     ofSetColor(m_color);
 
     ofBeginShape();
